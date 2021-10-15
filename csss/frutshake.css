@@ -427,7 +427,7 @@ header .opções li a{
 .conteiner .card .box .contexto div h2{color: #fff;font-size: 20px;letter-spacing: 1px;}
 .conteiner .card .box .contexto div p{color: #fff;font-size: 15px;}
 .conteiner .card .box .textB{
-    color: #00000000;
+    color: #43cc81;
     position: absolute;
     width: 100%;
     font-size:50px;
@@ -438,7 +438,6 @@ header .opções li a{
     display:inline;
     z-index: 1;
     font-style: italic;
-    animation: effect 3s infinite;
 }
 .text{color: #fff;font-size:12px;font-weight:300;letter-spacing:1px;}
 .rodape{
@@ -508,11 +507,4 @@ header .opções li a{
         right: 5px;
         font-size: 22px;
     }
-}
-@keyframes effect {
-    0%{background: #f04235;-webkit-background-clip: text;-webkit-box-decoration-break: clone;}
-    25%{background: #43cc81;-webkit-background-clip: text;-webkit-box-decoration-break: clone;}
-    50%{background: #91f75e;-webkit-background-clip: text;-webkit-box-decoration-break: clone;}
-    75%{background: #ff9b85;-webkit-background-clip: text;-webkit-box-decoration-break: clone;}
-    100%{background: #f04235;-webkit-background-clip: text;-webkit-box-decoration-break: clone;}
 }
