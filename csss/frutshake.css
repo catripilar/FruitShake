@@ -510,9 +510,9 @@ header .opções li a{
     }
 }
 @keyframes effect {
-    0%{background: #f04235;-webkit-background-clip: text;}
-    25%{background: #43cc81;-webkit-background-clip: text;}
-    50%{background: #91f75e;-webkit-background-clip: text;}
-    75%{background: #ff9b85;-webkit-background-clip: text;}
-    100%{background: #f04235;-webkit-background-clip: text;}
+    0%{background: #f04235;-webkit-background-clip: text;-webkit-box-decoration-break: clone;}
+    25%{background: #43cc81;-webkit-background-clip: text;-webkit-box-decoration-break: clone;}
+    50%{background: #91f75e;-webkit-background-clip: text;-webkit-box-decoration-break: clone;}
+    75%{background: #ff9b85;-webkit-background-clip: text;-webkit-box-decoration-break: clone;}
+    100%{background: #f04235;-webkit-background-clip: text;-webkit-box-decoration-break: clone;}
 }
