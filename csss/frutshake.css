@@ -98,7 +98,7 @@ header .logo{
     text-transform: uppercase;
     transition: 0.6s;
 }
-header.sticky{background: rgba(0, 0, 0, 0.4);}
+header.sticky{padding: 10px;background: rgba(0, 0, 0, 0.4);}
 header .opções{position: relative;display: flex;}
 header .opções li{position: relative;list-style: none;}
 header .opções li a.active,header .opções li a:hover{background:#fff;color: #333;}
