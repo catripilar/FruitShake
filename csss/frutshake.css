@@ -452,6 +452,7 @@ header .opções li a{
     .fundo::after{display: none;}
     .fundo2::after{display: none;}
     header{padding: 20px;}
+    header.sticky{padding: 40px 100px;background: rgba(0, 0, 0, 0.4);}
     section{padding:20px;padding-bottom: 120px;}
     .conteudo{flex-direction: column;margin-top: 100px;}
     .conteudo .caixatexto{max-width: 100%;} 
