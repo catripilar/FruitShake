@@ -98,7 +98,7 @@ header .logo{
     text-transform: uppercase;
     transition: 0.6s;
 }
-header.sticky{padding: 10px 30px;background: rgba(0, 0, 0, 0.4);}
+header.sticky{background: rgba(0, 0, 0, 0.4);}
 header .opções{position: relative;display: flex;}
 header .opções li{position: relative;list-style: none;}
 header .opções li a.active,header .opções li a:hover{background:#fff;color: #333;}
@@ -452,7 +452,6 @@ header .opções li a{
     .fundo::after{display: none;}
     .fundo2::after{display: none;}
     header{padding: 20px;}
-    header.sticky{padding: 40px 100px;background: rgba(0, 0, 0, 0.4);}
     section{padding:20px;padding-bottom: 120px;}
     .conteudo{flex-direction: column;margin-top: 100px;}
     .conteudo .caixatexto{max-width: 100%;} 
