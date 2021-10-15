@@ -435,6 +435,7 @@ header .opções li a{
     letter-spacing:1px;
     margin-top:110px;
     text-align:center;
+    display:inline;
     z-index: 1;
     font-style: italic;
     animation: effect 3s infinite;
