@@ -451,7 +451,7 @@ header .opções li a{
 @media(max-width:1100px){
     .fundo::after{display: none;}
     .fundo2::after{display: none;}
-    header{padding: 21px;}
+    header{padding: 20px;}
     section{padding:20px;padding-bottom: 120px;}
     .conteudo{flex-direction: column;margin-top: 100px;}
     .conteudo .caixatexto{max-width: 100%;} 
