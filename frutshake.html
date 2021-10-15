@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="1spt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="csss/frutshake.css" type="text/css">
+    <script src="https://kit.fontawesome.com/09110f2ff7.js" crossorigin="anonymous"></script>
+    <title>FruitShake</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class='logo'><strong style="color:#25d366;">F</strong>ruit<strong
+                style="color:cyan;">S</strong>hake<img src="fruimg/Flogo.png" width="30px"></a>
+        <div class='toggle'></div>
+        <ul class="opções">
+            <li><a href='#' class="active">Home</a></li>
+            <li><a href='#com'>Contato</a></li>
+            <li><a href='#mais'>Mais</a></li>
+        </ul>
+    </header>
+    <a href="https://wa.me/5511987654321" class="whatsapp"><i class="fa fa-whatsapp zap"></i></a>
+    <section class='fundo'>
+        <div class='conteudo'>
+            <div class='caixatexto'>
+                <h2>O melhor Milkshake a partir de R$9,99</h2>
+                <p>O Fruitshake é especializada em fazer um Milkshake da
+                    melhor e mais pura fruta na melhor delicia gelada!</p>
+            </div>
+            <div class="caixaimg">
+                <div class='carta'>
+                    <div class="ciclo"></div>
+                    <div class="contem">
+                        <h2>Seu Milkshake</h2>
+                        <p><strong style="color:cyan;">300ML</strong> R$9,99
+                            <strong style="color: #FF00FF;">500ML</strong> R$12,99
+                            <strong style="color:#FF4500;">700ML</strong> R$14,99
+                        </p>
+                        <a href="https://wa.me/5511987654321">Comprar</a>
+                    </div>
+                    <img src="fruimg/Mmorango.png" class="sabor">
+                </div>
+            </div>
+        </div>
+        <ul class="escolha">
+            <li data-text="Morango" class="active"><img src="fruimg/Fmorango.png"
+                    onclick="mudar('fruimg/Mmorango.png');corfundo('#fc4a55')" width="50px"></li>
+            <li data-text="Menta"><img src="fruimg/Fmenta.png" onclick="mudar('fruimg/Mmenta.png');corfundo('#98FB98')"
+                    width="50px"></li>
+            <li data-text="Banana"><img src="fruimg/Fbanana.png"
+                    onclick="mudar('fruimg/Mbanana.png');corfundo('#FFD700')" width="50px"></li>
+            <li data-text="Coco"><img src="fruimg/Fcoco.png" onclick="mudar('fruimg/Mcoco.png');corfundo('#DCDCDC')"
+                    width="50px"></li>
+            <li data-text="Uva"><img src="fruimg/Fuva.png" onclick="mudar('fruimg/Muva.png');corfundo('#7B68EE')"
+                    width="50px"></li>
+        </ul>
+    </section>
+    <section class='banner'>
+        <img src='fruimg/bg1.jpg' class="bg">
+        <div class='contato' id='com'>
+            <div class="in">
+                <h1>Entrar em contato</h1>
+                <h2><i class="fas fa-map-marker-alt"></i>Local</h2>
+                <p>Bairro,Cidade</p>
+                <h2><i class="fas fa-store"></i>Aberto</h2>
+                <P>Das 13:30h às 18h.</P>
+                <h2><i class="fas fa-phone"></i>Telefone</h2>
+                <a href="cal:+55(11)987654321" style="color: #fff;">
+                    <p>+55(11)987654321</p>
+                </a>
+                <h2><i class="fas fa-envelope"></i>E-mail</h2>
+                <a href="mailto:Frutshake@gmail.com" style="color: #fff;">
+                    <p>Fruitshake@gmail.com</p>
+                </a>
+                <ul>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="in">
+                <h1>Mandar E-mail</h1>
+                <form action="https://formsubmit.co/polidorothales@gmail.com" method="POST">
+                    <div class="inbox">
+                        <input type="text" name="Nome" placeholder='Seu Nome' required='required'>
+                        <h6>Nome</h6>
+                    </div>
+                    <div class="inbox">
+                        <input type="text" name="E-mail" placeholder='Seu@email.com' required='required'>
+                        <h6>E-mail</h6>
+                    </div>
+                    <div class="inbox">
+                        <input type="text" name="Numero" placeholder='+55(99)987654321' required='required'>
+                        <h6>Telefone</h6>
+                    </div>
+                    <div class="inbox"><textarea name="Mensagem" placeholder='Mensagem' required='required'></textarea>
+                    </div>
+                    <input type="submit" value='Enviar'>
+                </form>
+            </div>
+            <div class="in">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14630.852707575114!2d-46.641623677703315!3d-23.542816433389667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58560a6c5f29%3A0xeff177e6d6a04b7a!2sCentro%20Hist%C3%B3rico%20de%20S%C3%A3o%20Paulo%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1633229423152!5m2!1spt-BR!2sbr"
+                    style="border:0;" allowfullscreen="" loading="lazy" width="100%" height="auto"></iframe>
+            </div>
+        </div>
+    </section>
+    <section class='fundo2'>
+        <div class="conteiner" id="mais">
+            <div class="card">
+                <div class="box">
+                    <p class="textB">Novidades</p>
+                    <div class="imagem">
+                        <img src='fruimg/img1.jpg'>
+                    </div>
+                    <div class='contexto'>
+                        <div>
+                            <h2>Novidades</h2>
+                            <p>Aproveite as nossas novidades por tempo limitado,
+                                com descontos Incríveis! Use nosso cupom <strong style="color:crimson;">SHAKEJA</strong>
+                                ou <strong style="color:cyan;">FRUT20</strong> no
+                                <strong style="color:#25d366;">whatsapp</strong>
+                                Para obter seus descontos semanais!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <p class="textB">Pedir</p>
+                    <div class="imagem">
+                        <img src='fruimg/img2.jpg'>
+                    </div>
+                    <div class='contexto'>
+                        <div>
+                            <h2>Pedir</h2>
+                            <p>Para realizar seu pedido,você pode entrar em contato
+                                diretamente pelo <strong style="color:#25d366;">whatsapp</strong>
+                                ou pelo <strong style="color:rgb(5, 180, 255);">E-mail</strong>.
+                                Fique a vontade para nos visitar também, estamos a disposição.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <p class="textB">Ajuda</p>
+                    <div class="imagem">
+                        <img src='fruimg/img3.jpg'>
+                    </div>
+                    <div class='contexto'>
+                        <div>
+                            <h2>Ajuda</h2>
+                            <p>Caso tenha alguma duvida sobre como realizer
+                                o pedido,frete,formas de pagamento,ambas estão presentes no
+                                <strong style="color:#25d366;">whatsapp</strong>. Para outras
+                                Informações específicas nos mande um <strong
+                                    style="color:rgb(5, 180, 255);">E-mail</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="rodape">
+        <p class="text">Construido e desenvolvido por TS-Sites</p>
+    </div>
+    <script>
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+        let menu = document.querySelector('.toggle');
+        let carta = document.querySelector('.carta');
+        let option = document.querySelector('.opções');
+        carta.onclick = function () { carta.classList.toggle('active'); }
+        menu.onclick = function () {
+            menu.classList.toggle('active');
+            option.classList.toggle('active');
+        }
+        function mudar(anything) {
+            document.querySelector('.sabor').src = anything;
+        }
+        function corfundo(color) {
+            const fundo3 = document.querySelector('.fundo2');
+            const fundo = document.querySelector('.fundo');
+            const banner = document.querySelector('.banner');
+            fundo.style.background = color;
+            fundo3.style.background = color;
+            banner.style.background = color;
+        }
+        let el = document.querySelectorAll('.escolha li');
+        for (let i = 0; i < el.length; i++) {
+            el[i].onclick = function () {
+                var c = 0;
+                while (c < el.length) { el[c++].className = 'check'; }
+                el[i].className = 'check active';
+            }
+        }
+    </script>
+</body>
+</html>
